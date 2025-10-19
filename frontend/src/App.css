@@ -1,0 +1,608 @@
+/*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+/*  ===== See tablet, desktop, and print @media queries at the bottom. */
+
+/*   ----- Imports  -----  */
+
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {       /* Can alternatively define in html {}. */
+  background-color:#c4c4c4;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  line-height:1.5;
+  margin:0 auto;
+  padding:4%;
+  max-width:1200px;
+}
+
+/*  ----- Page layout blocks -----  */
+header {
+  color:var(--pineGreen);
+  margin: 20px;
+  padding: 0px;
+  text-align: center;
+}
+header img{
+  height: 60px;
+  width: auto;
+  margin: 10px 10px -10px 10px;
+  padding: 5px;
+  max-width: 100%;
+}
+
+header p{
+  font-size: .85rem;
+}
+
+main {
+  color:var(--pineGreen);
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+.filter-gap1{
+  margin-bottom: 3px;
+}
+.filter-gap2{
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+
+section {}
+article {}
+  #topic1 {}
+  #topic2 {}
+div {}
+aside {}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+
+  bottom: 0;
+}
+
+/* ----- Anchors ----- Text links */
+a {}
+a:link {}
+a:hover {}
+a:active {}
+a:visited {}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px; 
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color:black;
+  margin-right:3px;
+  padding: .5px;
+  text-decoration:none;
+  margin-bottom: 8px;
+  margin: 0 30px;
+}
+
+nav a:hover{
+  transform: scale(1.2); 
+  color: rgb(63, 63, 63);
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+  margin-right: 3px;
+  padding: 0.5px;
+  text-decoration: none;
+  margin-bottom: 8px;
+  margin: 0 30px;
+  border: none;  
+  background: none; 
+  outline: none; 
+}
+
+.nav-icon:hover{
+  transform: scale(1.2); 
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+}
+
+.local {
+  background-color: var(--sandBrownTransparency);
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.local a {
+  color: var(--pineGreen);
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  max-width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap; 
+  margin: 0;
+  padding: 0;
+}
+
+.gallery figure {
+  width: 320px;
+  margin: 1%;
+  padding: 1%;
+}
+
+.gallery figcaption{
+  display: block;
+  padding: 1% 0 1% 0;
+}
+
+.gallery img  {
+  width:100%;
+  height: auto;
+  margin:0;
+  padding:0;
+}
+
+
+/*---- Filters ----*/
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.filter-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+
+.filter-item label {
+  text-align: left;
+  font-weight: bold;
+  flex: 1;
+}
+
+.filter-item select {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  background-color: white;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button {
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #555;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #333;
+  color: white;
+  border-radius: 20px;
+}
+
+/*---- Popular Games ----*/
+.popular-games {
+  text-align: center;
+}
+
+.game-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.game-card {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-card p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+/*  -----  Typography  ----- */
+p {
+  
+}
+br {}
+ol, ul, dl {}
+li {}
+dt {}
+dd {}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Julee", serif;
+    font-weight: bold;
+    font-size: 30px;
+
+} 
+h1 {
+  font-size: 60px;
+  margin-bottom: -20px;
+
+}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+abbr {}
+acronym {}
+address {}
+blockquote {}
+  q {}
+  cite {}
+em {}
+hr {}
+mark {}
+s {}
+span {}
+strong {}
+sub {}
+sup {}
+time {}
+
+/*  ----- Coding or instructional typography ----- */
+pre {}
+code {}
+kbd {}
+samp {}
+var {}
+del {} 
+ins {}
+
+/*  ----- Table ----- */
+table {
+  width: 100%;
+  background-color: var(--cloudWhiteTransparent);
+  color: var(--pineGreen);
+  margin: 20px 0;
+  padding: 10px;
+}
+.clicker{
+  display:flex;
+}
+caption {
+  font-size: 1.4em;
+  margin: 10px;
+  color: var(--pineGreen)
+}
+thead {
+  font-size: 1.1em;
+  margin: 10px 0;
+  padding: 8px;
+}
+tr th{
+  background-color: var(--sandBrown);
+}
+tr td{
+  font-size: 1.0em;
+  padding: 5px;  
+}
+tbody {}
+tfoot {}
+tr {}
+  tr:nth-child(even) {}
+th {}
+td {}
+  td:nth-child(1) {}
+colgroup {}
+data {}
+datalist {}
+
+/*  ----- Recommended Games ----- */
+.recommended-games, .trending-games, .profile-games{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-info {
+  width: calc(50% - 20px); 
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.game-info img {
+  width: auto; 
+  height: auto;
+}
+
+.nextPageContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-page{
+  margin-left: auto;
+}
+
+.next-page:hover{
+  color: pink;
+}
+
+/*  ----- Form ----- */
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 300px; 
+  margin: auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.inputGroup label {
+  width: 30%;
+  text-align: left;
+  margin: 15px;
+}
+
+.inputGroup input {
+  width: 65%;
+  padding: 8px;
+}
+
+.buttonsGroup {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+form, button, input, select, textarea{
+  font-family: "Frank Ruhl Libre", serif;
+  padding: 1.5%;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.search-input{
+  font-family: "Frank Ruhl Libre", serif;
+  padding: 1.5%;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  height: 10px;
+}
+
+fieldset {
+  margin-bottom: 2%;
+}
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  display:block;
+  margin-top: 1.5%;
+  font-size: 19px; 
+}
+
+.recToolTip {
+  position: relative;
+  cursor: pointer;
+  display:block;
+  margin-top: 1.5%;
+  margin-bottom: 15px ;
+  font-size: 19px; 
+}
+
+.tooltip .tooltiptext, .recToolTip .rectooltiptext{
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1000; 
+  bottom: 125%; 
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  
+}
+
+
+.tooltip:hover .tooltiptext, .recToolTip:hover .rectooltiptext{
+  visibility: visible;
+  opacity: 1;
+}
+
+  legend {
+    border-bottom: 0;
+    border-top: 0;
+    font-size: 20px;
+    font-weight: bold ;
+  }
+
+label {
+  display:block;
+  margin-top: 2%;
+  font-size: 18px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: var(--sandBrown);
+  color:var(--pineGreen);
+  padding: 10px 20px;
+  display: inline-block; 
+}
+
+button:hover{
+  border-radius: 2px;
+  background-color: ;
+}
+
+select {
+  color:black;
+}
+
+  optgroup {}
+  option {
+    color: black;
+  }
+
+input[type ="text"],
+input[type ="email"],
+textarea {width: 70%;}
+textarea{
+  height: 150px;
+}
+output {}
+meter {}
+progress {}
+
+:focus{
+  background-color: var(--cloudWite);
+}
+*::placeholder{
+  color:var(--pineGreen);
+  font-size: 20px;
+}
+*:required{
+  border:2px solid green;
+}
+label.required:after{
+  content:" *";
+  color: red;
+}
+
+
+/* ----- Media ----- */
+figure {}
+  figcaption {}
+  figure img {}
+svg {}
+picture {}
+  source {}
+iframe {}
+video {}
+audio {}
+embed {}
+object {}
+
+/*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.clicker{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.price{
+  text-align: right;
+}
+.gallery {}
+
+.icon{
+  cursor: pointer;
+  transition: color;
+  align-items: center;
+}
+
+.floatright {}
+.floatleft {}
+.center-middle {}
+
+.ten {}
+.twenty {}
+.thirty {}
+.forty {}
+.fifty {}
+.sixty {}
+.seventy {}
+.eighty {}
+
+.radius {}
+.circle {}
+.boxshadow {}
+.tshadow {} 
+.gradient {}
+.shape {}
+
+@keyframes App-logo {}
+
+/*   ===== TABLET  media query overrides mobile styles ===== */
+@media all and (min-width: 600px) {}
+
+/*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+@media all and (min-width: 1080px) {}
+
+/*   ===== PRINT  media query overrides previous styles =====  */
+@media print {}
+
+

@@ -1,0 +1,648 @@
+[
+  {
+    "id": 121,
+    "age_ratings": [
+      {
+        "id": 46780,
+        "rating": 2
+      },
+      {
+        "id": 47365,
+        "rating": 13
+      },
+      {
+        "id": 47366,
+        "rating": 19
+      },
+      {
+        "id": 47368,
+        "rating": 28
+      },
+      {
+        "id": 194940,
+        "rating": 24
+      },
+      {
+        "id": 47370,
+        "rating": 35
+      },
+      {
+        "id": 188823,
+        "rating": 9
+      }
+    ],
+    "aggregated_rating": 84.35714285714286,
+    "cover": {
+      "id": 393774,
+      "image_id": "co8fu6"
+    },
+    "name": "Minecraft: Java Edition",
+    "platforms": [
+      {
+        "id": 3,
+        "name": "Linux"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "slug": "minecraft-java-edition"
+  },
+  {
+    "id": 1020,
+    "age_ratings": [
+      {
+        "id": 47891,
+        "rating": 17
+      },
+      {
+        "id": 47892,
+        "rating": 22
+      },
+      {
+        "id": 47893,
+        "rating": 26
+      },
+      {
+        "id": 47894,
+        "rating": 33
+      },
+      {
+        "id": 47895,
+        "rating": 38
+      },
+      {
+        "id": 111359,
+        "rating": 5
+      },
+      {
+        "id": 189766,
+        "rating": 11
+      }
+    ],
+    "aggregated_rating": 88.13793103448276,
+    "cover": {
+      "id": 120937,
+      "image_id": "co2lbd"
+    },
+    "name": "Grand Theft Auto V",
+    "platforms": [
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      }
+    ],
+    "slug": "grand-theft-auto-v"
+  },
+  {
+    "id": 1877,
+    "age_ratings": [
+      {
+        "id": 67324,
+        "rating": 17
+      },
+      {
+        "id": 56885,
+        "rating": 38
+      },
+      {
+        "id": 50715,
+        "rating": 22
+      },
+      {
+        "id": 93481,
+        "rating": 26
+      },
+      {
+        "id": 124694,
+        "rating": 33
+      },
+      {
+        "id": 44435,
+        "rating": 5
+      },
+      {
+        "id": 190586,
+        "rating": 11
+      }
+    ],
+    "aggregated_rating": 75.23809523809524,
+    "cover": {
+      "id": 332107,
+      "image_id": "co7497"
+    },
+    "name": "Cyberpunk 2077",
+    "platforms": [
+      {
+        "id": 170,
+        "name": "Google Stadia"
+      },
+      {
+        "id": 169,
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 167,
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      }
+    ],
+    "slug": "cyberpunk-2077"
+  },
+  {
+    "id": 1905,
+    "age_ratings": [
+      {
+        "id": 47588,
+        "rating": 3
+      },
+      {
+        "id": 47589,
+        "rating": 15
+      },
+      {
+        "id": 47590,
+        "rating": 20
+      },
+      {
+        "id": 47591,
+        "rating": 24
+      },
+      {
+        "id": 47592,
+        "rating": 30
+      },
+      {
+        "id": 47593,
+        "rating": 36
+      },
+      {
+        "id": 190688,
+        "rating": 10
+      }
+    ],
+    "aggregated_rating": 82.6,
+    "cover": {
+      "id": 428917,
+      "image_id": "co96yd"
+    },
+    "name": "Fortnite",
+    "platforms": [
+      {
+        "id": 169,
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 34,
+        "name": "Android"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      },
+      {
+        "id": 167,
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "name": "Nintendo Switch"
+      }
+    ],
+    "slug": "fortnite"
+  },
+  {
+    "id": 1942,
+    "age_ratings": [
+      {
+        "id": 67455,
+        "rating": 17
+      },
+      {
+        "id": 46963,
+        "rating": 22
+      },
+      {
+        "id": 78138,
+        "rating": 26
+      },
+      {
+        "id": 78139,
+        "rating": 32
+      },
+      {
+        "id": 78140,
+        "rating": 38
+      },
+      {
+        "id": 187952,
+        "rating": 11
+      },
+      {
+        "id": 32441,
+        "rating": 5
+      }
+    ],
+    "aggregated_rating": 91.72,
+    "cover": {
+      "id": 89386,
+      "image_id": "co1wyy"
+    },
+    "name": "The Witcher 3: Wild Hunt",
+    "platforms": [
+      {
+        "id": 169,
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 167,
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "name": "Nintendo Switch"
+      }
+    ],
+    "slug": "the-witcher-3-wild-hunt"
+  },
+  {
+    "id": 7346,
+    "age_ratings": [
+      {
+        "id": 47171,
+        "rating": 29
+      },
+      {
+        "id": 55134,
+        "rating": 36
+      },
+      {
+        "id": 62638,
+        "rating": 20
+      },
+      {
+        "id": 91197,
+        "rating": 24
+      },
+      {
+        "id": 97621,
+        "rating": 14
+      },
+      {
+        "id": 189068,
+        "rating": 9
+      },
+      {
+        "id": 32771,
+        "rating": 3
+      }
+    ],
+    "aggregated_rating": 97.5925925925926,
+    "cover": {
+      "id": 172453,
+      "image_id": "co3p2d"
+    },
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "platforms": [
+      {
+        "id": 41,
+        "name": "Wii U"
+      },
+      {
+        "id": 130,
+        "name": "Nintendo Switch"
+      }
+    ],
+    "slug": "the-legend-of-zelda-breath-of-the-wild"
+  },
+  {
+    "id": 17269,
+    "age_ratings": [
+      {
+        "id": 34222,
+        "rating": 2
+      },
+      {
+        "id": 188386,
+        "rating": 10
+      },
+      {
+        "id": 96325,
+        "rating": 29
+      },
+      {
+        "id": 115976,
+        "rating": 35
+      },
+      {
+        "id": 115977,
+        "rating": 24
+      }
+    ],
+    "cover": {
+      "id": 272502,
+      "image_id": "co5u9i"
+    },
+    "name": "Roblox",
+    "platforms": [
+      {
+        "id": 386,
+        "name": "Meta Quest 2"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 34,
+        "name": "Android"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      },
+      {
+        "id": 471,
+        "name": "Meta Quest 3"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      }
+    ],
+    "slug": "roblox"
+  },
+  {
+    "id": 25076,
+    "age_ratings": [
+      {
+        "id": 26094,
+        "rating": 5
+      },
+      {
+        "id": 91819,
+        "rating": 17
+      },
+      {
+        "id": 103556,
+        "rating": 26
+      },
+      {
+        "id": 192337,
+        "rating": 37
+      },
+      {
+        "id": 192335,
+        "rating": 22
+      },
+      {
+        "id": 192336,
+        "rating": 33
+      },
+      {
+        "id": 190460,
+        "rating": 11
+      }
+    ],
+    "aggregated_rating": 94.05882352941177,
+    "cover": {
+      "id": 80403,
+      "image_id": "co1q1f"
+    },
+    "name": "Red Dead Redemption 2",
+    "platforms": [
+      {
+        "id": 170,
+        "name": "Google Stadia"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      }
+    ],
+    "slug": "red-dead-redemption-2"
+  },
+  {
+    "id": 119277,
+    "age_ratings": [
+      {
+        "id": 56331,
+        "rating": 3
+      },
+      {
+        "id": 200396,
+        "rating": 35
+      },
+      {
+        "id": 200397,
+        "rating": 30
+      },
+      {
+        "id": 200398,
+        "rating": 25
+      },
+      {
+        "id": 200399,
+        "rating": 21
+      },
+      {
+        "id": 117522,
+        "rating": 20
+      },
+      {
+        "id": 188459,
+        "rating": 10
+      }
+    ],
+    "aggregated_rating": 83.28571428571429,
+    "cover": {
+      "id": 197021,
+      "image_id": "co480t"
+    },
+    "name": "Genshin Impact",
+    "platforms": [
+      {
+        "id": 169,
+        "name": "Xbox Series X|S"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 34,
+        "name": "Android"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      },
+      {
+        "id": 167,
+        "name": "PlayStation 5"
+      }
+    ],
+    "slug": "genshin-impact"
+  },
+  {
+    "id": 135400,
+    "age_ratings": [
+      {
+        "id": 47376,
+        "rating": 9
+      },
+      {
+        "id": 47377,
+        "rating": 13
+      },
+      {
+        "id": 47378,
+        "rating": 19
+      },
+      {
+        "id": 47379,
+        "rating": 24
+      },
+      {
+        "id": 47380,
+        "rating": 28
+      },
+      {
+        "id": 47381,
+        "rating": 35
+      },
+      {
+        "id": 33580,
+        "rating": 2
+      }
+    ],
+    "cover": {
+      "id": 393775,
+      "image_id": "co8fu7"
+    },
+    "name": "Minecraft",
+    "platforms": [
+      {
+        "id": 132,
+        "name": "Amazon Fire TV"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 74,
+        "name": "Windows Phone"
+      },
+      {
+        "id": 34,
+        "name": "Android"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      },
+      {
+        "id": 167,
+        "name": "PlayStation 5"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "name": "Nintendo Switch"
+      }
+    ],
+    "slug": "minecraft--1"
+  }
+]
